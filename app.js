@@ -1,4 +1,4 @@
-function fillBar(seconds) {
+function completeBar(seconds) {
     const bars = document.querySelectorAll(".green-bar, .red-bar, .white-bar, .blue-bar, .yellow-bar");
 
 for (i = 0; i < bars.length; ++i) {
