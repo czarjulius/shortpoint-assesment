@@ -4,5 +4,6 @@ function completeBar(seconds) {
 for (i = 0; i < bars.length; ++i) {
         bars[i].style.transition = `${seconds}s linear width`;
         bars[i].style.width = "100%";
-  }
+        bars[i].querySelector('.value').innerHTML = "100%";
+    }
   }
